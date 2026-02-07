@@ -1,4 +1,8 @@
-package com.example.lib
+package com.example.lib.opg02
+
+import com.example.lib.opg02.Computer
+import com.example.lib.opg02.Laptop
+import com.example.lib.opg02.Smartphone
 
 fun main(){
 
