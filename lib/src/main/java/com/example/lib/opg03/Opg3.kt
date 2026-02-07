@@ -1,6 +1,10 @@
-package com.example.lib
+package com.example.lib.opg03
 
-    fun main() {
+import com.example.lib.opg03.Book
+import com.example.lib.opg03.Shoe
+import com.example.lib.opg03.TShirt
+
+fun main() {
 
         val shoe = Shoe("Sneakers", 899.0, 10)
         val tshirt = TShirt("Basic Tee", 199.0, 25)

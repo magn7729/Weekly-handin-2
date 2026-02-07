@@ -1,12 +1,12 @@
-package com.example.lib
+package com.example.lib.opg03
 
-class Shoe(
+class TShirt(
     name: String,
     price: Double,
     quantity: Int
 ) : Product(name, price, quantity) {
 
     override fun identifyProductCategory() {
-        println("I am a shoe")
+        println("I am a T-shirt")
     }
 }

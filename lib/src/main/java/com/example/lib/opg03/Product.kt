@@ -1,4 +1,4 @@
-package com.example.lib
+package com.example.lib.opg03
 
 open class Product(
     val name: String,
