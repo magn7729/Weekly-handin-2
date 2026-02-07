@@ -1,4 +1,4 @@
-package com.example.lib.Opg01
+package com.example.lib.opg01
 
 import com.example.lib.Opg01.Employee
 
