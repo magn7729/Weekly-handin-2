@@ -142,4 +142,22 @@ fun main() {
 // SENIOR LØSNING SLUT
 
 // Mit svar:
+// Junior løsning:
+// Ud fra min observation fokuserer junior løsningen på grundlæggende at koden til at virke
+// på en mere simpel måde. De beregner areal og omkreds uden at tjekke om inputværdierne er gyldige
+// Koden er generelt rimelig overskuelig og let læselig men mere sårbar overfor fejl. Man kan se i
+// klassen "Circle" at den tillader at man kan skrive -5. Dette kan ikke lade sig gøre da en radius
+// Ikke kan være negativ. Her vil det være godt med noget kode som tjekker om værdierne som bliver
+// tastet er korrekt og kan bruges. Bliver også bruge i senior løsningen ->.
 
+// Senior løsning:
+// Koden er igen syntes jeg rimelig okay at læse. Man kan dog også se her at der er fokus på
+// "korrekthed". Der bliver bla brugt "require" i init for at validere det input som bliver tastet.
+// Generelt opnår koden mere sikkerhed og man vil derfor også have lettere ved at viderebygge på koden
+
+// Jeg forstod til at starte med ikke formålet/brugen af init blokken og require og hvad det gjorde for
+// resten af koden. Dog efter at have undersøgt det kan jeg se det bruges til at validere
+// "constructor parametre" og sikre at objekter bliver oprettet korrekt med rigtige værdier. Init
+// bruges til kode som skal køre hver gang et objekt bliver oprettet. Her bruger koden samtidig
+// require for at tjek om objektet er gyldigt. Ligesom i junior løsningen vil man her ikke kunne
+// skrive radius = -5.
