@@ -1,4 +1,6 @@
-package com.example.lib
+package com.example.lib.Opg01
+
+import com.example.lib.Opg01.Employee
 
 
 fun main(){
